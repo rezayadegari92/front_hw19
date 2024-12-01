@@ -1,5 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 .banner {
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 700px;
     height: 600px;
     margin: 0 auto;
@@ -7,9 +18,51 @@
     padding: 10px;
 }
 .top-section{
-    background-color: aqua;
-    width: 700px;
+    background-color: rgb(255, 17, 0);
+    width: 670px;
     height: 100px;
     display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 15px;
+}
+.avatar{
+    position: relative;
+    right: 260px;
+}
+.small_image {
+    width: 105px;
+    height: 95px;
+    border-radius: 50%;  
+    object-fit: cover;  
+
+}
+
+.profile_name{
+    position: relative;
+    right: 220px;
+    top: 10px;
+    
+
+}
+
+.options{
+    width: 50pxpx;
+    height: 50px;
+    position: relative;
+    left: 480px;
+    bottom: 70px;
+
+}
+.image-container{
+    display: flex;
     justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}    
+.size_photo{
+    width: 100px;
+    height: auto;
 }
