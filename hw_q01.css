@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -9,7 +9,8 @@ body{
 .banner {
     background-color: white;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     width: 700px;
     height: 600px;
     margin: 0 auto;
@@ -17,19 +18,15 @@ body{
     padding: 10px;
 }
 .top-section{
-    background-color: rgb(255, 17, 0);
+    background-color: rgb(245, 242, 242);
     width: 670px;
     height: 100px;
     display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
+    justify-content:space-between;
     align-items: center;
     padding: 15px;
 }
-.avatar{
-    position: relative;
-    right: 260px;
-}
+
 .small_image {
     width: 105px;
     height: 95px;
@@ -38,30 +35,26 @@ body{
 
 }
 
-.profile_name{
-    position: relative;
-    right: 220px;
-    top: 10px;
-    
-
-}
 
 .options{
     width: 50pxpx;
     height: 50px;
-    position: relative;
-    left: 480px;
-    bottom: 70px;
 
 }
+.profile_name{
+    position: relative;
+    right: 190px;
+}
 .image-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: 300px;
+    width: 600px;
+    height: 500px;
+    order: 1;
 }    
 .size_photo{
-    width: 100px;
-    height: auto;
+    position: relative;
+    top: 135px;
+    right: 170px;
+    width: 700px;
+    height: 400px;
+
 }
