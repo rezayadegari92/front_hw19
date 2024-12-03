@@ -1,5 +1,5 @@
 body{
-    margin: 0 ;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,17 +9,17 @@ body{
     background-color: white;
     justify-self: center;
     width: 700%px;
-    height: 550px;
+    height: 570px;
     border: 1px solid #dbdbdb;
     margin: 0 auto;
     border-radius: 10px;
-    padding: 10px;
+    padding: 0px;
     box-shadow: 0 2px 4px rgb(0,0,0,0.1);
 }
 .top-section{
     background-color: rgb(255, 255, 255);
     width: 670px;
-    height: 80px;
+    height: 70px;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -56,3 +56,22 @@ body{
     border: 1px solid #dbdbdb;
 
 }
+.post-footer {
+    padding: 5px;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+    padding: 5px;
+  }
+  
+  .likes {
+    font-weight: bold;
+    margin: 0;
+    padding: 5px;
+  }
+  .save {
+    margin-left: auto;
+  }
